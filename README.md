@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-
+https://user-images.githubusercontent.com/17033621/108862243-0ac74680-75be-11eb-93ab-d25223943cbd.png
 ### Purpose
 
 ## Analysis and Challenges
