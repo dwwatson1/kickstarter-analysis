@@ -5,7 +5,7 @@
 ### Purpose
 ![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
 ## Analysis and Challenges
-![Theater_Outcomes_vs_Launch](Theater_Outcomes_vs_Launches.png
+![Theater_Outcomes_vs_Launches](Theater_Outcomes_vs_Launches.png
 ### Analysis of Outcomes Based on Launch Date
 
 ### Analysis of Outcomes Based on Goals
