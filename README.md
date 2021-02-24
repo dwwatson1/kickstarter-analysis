@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose
-
+![Outcomes_vs_Goals](screenshot.png)
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
