@@ -7,6 +7,7 @@ This purpose of this analysis was to determine how variables affected the outcom
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
+The first analysis was to determine if the launch date month impacted the outcome of **Theater** fundraising campaigns.
 ![Theater_Outcomes_vs_Launches](Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 ![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
