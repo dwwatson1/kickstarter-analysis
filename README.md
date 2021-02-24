@@ -1,15 +1,15 @@
 # Kickstarting with Excel
 
-## Overview of Project
+## An Overview of Kickstarter Fundraising Efforts
 
 ### Purpose
-![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
+
 ## Analysis and Challenges
-![Theater_Outcomes_vs_Launches](Theater_Outcomes_vs_Launch.png)
+
 ### Analysis of Outcomes Based on Launch Date
-
+![Theater_Outcomes_vs_Launches](Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
-
+![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
 ### Challenges and Difficulties Encountered
 
 ## Results
