@@ -1,9 +1,9 @@
 # Kickstarting with Excel
 
-## An Overview of Kickstarter Fundraising Efforts
+## An Analysis of Kickstarter Campaigns
 
 ### Purpose
-
+This purpose of this analysis was to determine how variables affected the outcomes of kickstarter campaigns. Using the Kickstarter dataset, I visualized four outcomes - successful, failed, live, canceled - based on their launch dates and their fundraising goals.
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
