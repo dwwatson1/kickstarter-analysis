@@ -3,7 +3,9 @@
 ## Overview of Project
 
 ### Purpose
-
+<p align="center">
+  <img src="Resources/Outcomes_vs_Goals" width="350" title="hover text">
+</p>
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
