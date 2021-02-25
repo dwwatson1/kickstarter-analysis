@@ -22,7 +22,7 @@ To complete this analysis, I created a pivot table using the Kickstarter dataset
 #### Overview
 #### Process 
 #### Challenges
-![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Count_of_Outcomes.PNG)
 ### Other Challenges and Difficulties Encountered
 
 ## Results
