@@ -16,9 +16,11 @@ The first analysis was to determine if the launch date month impacted the outcom
 #### Process 
 To complete this analysis, I created a pivot table using the Kickstarter dataset. I used the parent category and years fields as my filters, date created conversion to rows, outcomes to columns, and outcomes to values. I made sure to double check that the value field settings of outcomes in values was set to 'count of outcomes.'
 
+![Count_of_Outcomes.PNG](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Count_of_Outcomes.PNG)
+
 After I created the pivot table, I noticed the dates row labels showed up as mm/dd/yyy. After doing a quick search on Google, I learned I could group them by various increments of time. I chose 'months' as this was the easiest way to spot outcomes trends from 7 years-worth of campaigns.
 
-![Count_of-Outcomes.PNG](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Count_of_Outcomes.PNG)
+![Grouping_Rows.png](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Grouping_Rows.png)
 
 ![Theater_Outcomes_vs_Launches](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 #### Challenges
