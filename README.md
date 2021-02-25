@@ -18,13 +18,16 @@ To complete this analysis, I created a pivot table using the Kickstarter dataset
 
 ![Count_of_Outcomes.PNG](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Count_of_Outcomes.PNG)
 
-After I created the pivot table, I noticed the dates row labels showed up as mm/dd/yyy. After doing a quick search on Google, I learned I could group them by various increments of time. I chose **months** as this was the easiest way to spot outcomes trends from 7 years-worth of campaigns.
+After I created the pivot table, I noticed the dates row labels showed up as mm/dd/yyy. After doing a quick search on Google, I learned I could group them by various increments of time. I chose **months** as this was the easiest way to spot outcome trends from 7 years-worth of campaigns.
 
 ![Grouping_Rows.png](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Grouping_Rows.png)
 
 After making those tweaks, I filtered the parent category show to only **theater** fundraising campaigns. Then, I filtered out **live** campaigns, as those would show ongoing or incomplete ones, and sorted the outcome column labels in descending order: successful, failed, an canceled. Luckily, by grouping the **date create conversion** field, the months row label was already sorted chronologically (Jan. - Dec.).
 
+With the correct filters and sorting, I was confident that a pivot chart would clearly display the theater outcomes by month of launch date. To explain the data I was showing in the chart, I added the title **Theater Outcomes Based on Launch Date**. I then saved the chart as a .png file, uploaded it to my _Resources_ folder in my repository, and then added it below: 
+
 ![Theater_Outcomes_vs_Launches](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
+
 #### Challenges
 ### Analysis of Outcomes Based on Goals
 #### Overview
