@@ -16,7 +16,7 @@ The first analysis was to determine if the launch date month impacted the outcom
 #### Process 
 To complete this analysis, I created a pivot table using the Kickstarter dataset. I used the parent category and years fields as my filters, date created conversion to rows, outcomes to columns, and outcomes to values. I made sure to double check that the value field settings of outcomes in values was set to 'count of outcomes.
 
-![Theater_Outcomes_vs_Launches](Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launches](path/to/Theater_Outcomes_vs_Launch.png.png).
 #### Challenges
 ### Analysis of Outcomes Based on Goals
 #### Overview
