@@ -15,14 +15,14 @@ The purpose of this analysis was help Louise answer her question. Using visualiz
 The first analysis was to determine if the launch date month impacted the outcome of **Theater** fundraising campaigns. 
 #### Process 
 To complete this analysis, I created a pivot table using the Kickstarter dataset. I used the parent category and years fields as my filters, date created conversion to rows, outcomes to columns, and outcomes to values. I made sure to double check that the value field settings of outcomes in values was set to 'count of outcomes.
-
-![Theater_Outcomes_vs_Launches](Theater_Outcomes_vs_Launch.png)
+![Count_of-Outcomes.PNG](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Count_of_Outcomes.PNG)
+![Theater_Outcomes_vs_Launches](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 #### Challenges
 ### Analysis of Outcomes Based on Goals
 #### Overview
 #### Process 
 #### Challenges
-![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Count_of_Outcomes.PNG)
+![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 ### Other Challenges and Difficulties Encountered
 
 ## Results
