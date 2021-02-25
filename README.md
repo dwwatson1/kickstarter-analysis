@@ -12,15 +12,17 @@ The purpose of this analysis was help Louise answer her question. Using visualiz
 
 ### Analysis of Outcomes Based on Launch Date
 #### Overview
-The first analysis was to determine if the launch date month impacted the outcome of **Theater** fundraising campaigns. 
+The first analysis was to determine if the launch date month impacted the outcome of **theater** fundraising campaigns. 
 #### Process 
-To complete this analysis, I created a pivot table using the Kickstarter dataset. I used the parent category and years fields as my filters, date created conversion to rows, outcomes to columns, and outcomes to values. I made sure to double check that the value field settings of outcomes in values was set to 'count of outcomes.'
+To complete this analysis, I created a pivot table using the Kickstarter dataset. I used the parent category and years fields as my filters, moved date created conversion to rows, outcomes to columns, and set outcomes to values. I made sure to double check that the value field settings of outcomes in values was set to _count of outcomes._
 
 ![Count_of_Outcomes.PNG](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Count_of_Outcomes.PNG)
 
-After I created the pivot table, I noticed the dates row labels showed up as mm/dd/yyy. After doing a quick search on Google, I learned I could group them by various increments of time. I chose 'months' as this was the easiest way to spot outcomes trends from 7 years-worth of campaigns.
+After I created the pivot table, I noticed the dates row labels showed up as mm/dd/yyy. After doing a quick search on Google, I learned I could group them by various increments of time. I chose **months** as this was the easiest way to spot outcomes trends from 7 years-worth of campaigns.
 
 ![Grouping_Rows.png](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Grouping_Rows.png)
+
+After making those tweaks, I filtered the parent category show to only **theater** fundraising campaigns. Then, I filtered out **live** campaigns, as those would show ongoing or incomplete ones, and sorted the outcome column labels in descending order: successful, failed, an canceled. Luckily, by grouping the **date create conversion** field, the months row label was already sorted chronologically (Jan. - Dec.).
 
 ![Theater_Outcomes_vs_Launches](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 #### Challenges
