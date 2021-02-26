@@ -57,13 +57,21 @@ After establishing the proper table format, I needed a way to count the number o
 
 ![Complete_Outcomes](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Complete_Outcomes.PNG)
 
-To complete the rest of column B, I changed the numeric value of the goal filter. See the filter change circled in red:
+To complete the rest of **Number Successful** , I changed the numeric value of the goal filter. See the filter change for cell B2 circled in red:
 
 ![Outcomes_OneFilter](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_OneFilter.PNG)
 
-For cells columns C and D, I needed to change the goal and outcome filters. See the two-filter change circled in red:
+Moving down 1 row to **Goal 1000 to 4999** and across to **Number Failed**, I needed to change the goal and outcome filters. See the two-filter change for cell B3 circled in red:
 
-![Outcomes_TwoFilter](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_TwoFilter.PNG)
+![Outcomes_TwoFilters](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_TwoFilters.PNG)
+
+I repeated a combination of one- and two-filter changes to complete the rest of the columns **Number Successful**, **Number Failed**, and **Number Canceled**. Once those three columns were complete, I used a SUM forumula for **Total Projects**. 
+
+![Total_Projects](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Total_Projects.PNG)
+
+Columns **Percentage Sucessful**, **Percentage Failed**, and **Percentage Canceled** required a simple division and percentage conversion calculation. See example from the **Percentage Sucessful** column:
+
+![Percentage_Sucessful](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Percentage_Sucessful.PNG)
 
 #### Challenges
 ![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
