@@ -55,6 +55,8 @@ To begin my analysis of outcomes based on goals, I added a new sheet to my Kicks
 
 After establishing the proper table format, I needed a way to count the number of successful, failed, and canceled fundraising campaigns in each goal range. Using a COUNTIFS formula, I filtered three columns of Kickstarter data to populate **Number Sucessful**, **Number Failed**, and **Number Canceled**. I used the folllowing forumula for cell B2: =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$F:$F, "successful", Kickstarter!$O:$O, "plays"). To complete the rest of column B, I changed the numeric value of the goal filter. For cells columns C and D, I needed to change the goal and outcome filters. See completed chart with cell B2's formula displayed:
 
+![Complete_Outcomes](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Complete_Outcomes.png)
+
 #### Challenges
 ![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 ### Other Challenges and Difficulties Encountered
