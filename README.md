@@ -73,6 +73,7 @@ Columns **Percentage Sucessful**, **Percentage Failed**, and **Percentage Cancel
 
 ![Percentage_Sucessful](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Percentage_Sucessful.PNG)
 
+
 #### Challenges
 ![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 ### Other Challenges and Difficulties Encountered
