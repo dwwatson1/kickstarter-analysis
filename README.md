@@ -12,7 +12,7 @@ The purpose of this analysis was help Louise answer her question. Using visualiz
 
 ### Analysis of Outcomes Based on Launch Date
 #### Overview
-The first analysis was to determine if the launch date month impacted the outcome of **theater** fundraising campaigns. 
+The first analysis was to determine if the month of launch date impacted the outcome of **theater** fundraising campaigns. 
 #### Process 
 To complete this analysis, I created a pivot table using the Kickstarter dataset. I used the parent category and years fields as my filters, moved date created conversion to rows, outcomes to columns, and set outcomes to values. I made sure to double check that the value field settings of outcomes in values was set to _count of outcomes._
 
@@ -31,6 +31,7 @@ With the correct filters and sorting, I was confident that a pivot chart would c
 #### Challenges
 ### Analysis of Outcomes Based on Goals
 #### Overview
+The second analysis was to determine if fundraising goals impacted their outcome.
 #### Process 
 #### Challenges
 ![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
