@@ -22,7 +22,7 @@ I made sure to double check that the value field settings of outcomes in values 
 
 ![Count_of_Outcomes.PNG](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Count_of_Outcomes.PNG)
 
-After I created the pivot table, I noticed the dates row labels showed up as mm/dd/yyy. After doing a quick search on Google, I learned I could group them by various increments of time. I chose **months** as this was the easiest way to spot outcome trends from 7 years-worth of fundraising campaigns.
+After I created the pivot table, I noticed the dates row labels showed up as mm/dd/yyyy. After doing a quick search on Google, I learned I could group them by various increments of time. I chose **months** as this was the easiest way to spot outcome trends from 7 years-worth of fundraising campaigns.
 
 ![Grouping_Rows.png](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Grouping_Rows.png)
 
@@ -33,6 +33,9 @@ With the correct filters and sorting, I was confident that a pivot chart would c
 ![Theater_Outcomes_vs_Launches](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 #### Challenges
+
+As mentioned in the previous section, I encountered difficulty displaying **date create conversion** as **months**. When I created my pivot table, **date create conversion** showed as mm/dd/yyyy. This caused each specific date to count outcomes, as shown below: 
+
 ### Analysis of Outcomes Based on Goals
 #### Overview
 The second analysis was to determine if fundraising goals impacted their outcome.
