@@ -28,7 +28,7 @@ After I created the pivot table, I noticed the dates row labels showed up as mm/
 
 After setting the pivot table field, I filtered the parent category show to only **theater** fundraising campaigns. Then, I filtered out **live** campaigns, as those would show ongoing or incomplete ones, and sorted the outcome column labels in descending order: successful, failed, and canceled. By grouping the **date create conversion** field, the months row label was already sorted chronologically (Jan. - Dec.).
 
-With the correct filters and sorting, I was confident that a pivot chart would clearly display the theater outcomes by month of launch date. To explain the data I was showing in the chart, I added the title **Theater Outcomes Based on Launch Date**. I then saved the chart as a .png file, uploaded it to my _Resources_ folder in my repository, and then added it below: 
+With the correct filters and sorting, I was confident that a pivot chart would clearly display the theater outcomes by month of launch date. To explain the data I was showing in the chart, I added the title **Theater Outcomes Based on Launch Date**. I then saved the chart as a .png file, uploaded it to my _Resources_ folder in my repository, and added it below: 
 
 ![Theater_Outcomes_vs_Launches](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
@@ -45,7 +45,7 @@ After a few Google searches, I learned that I right click and group Row Labels a
 ### Analysis of Outcomes Based on Goals
 #### Overview
 
-The second analysis was to determine if fundraising goals impacted the outcome of the Kickstarter campaign.
+The second analysis was to determine if fundraising goals impacted the outcome of the Kickstarter campaigns with the subcategory **plays**.
 
 #### Process 
 
@@ -53,7 +53,7 @@ To begin my analysis of outcomes based on goals, I added a new sheet to my Kicks
 
 ![Blank_Outcomes_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Blank_Outcomes_Goals.PNG)
 
-After establishing the proper table format, I needed a way to count the number of successful, failed, and canceled fundraising campaigns in each goal range. Drawing from the Kickstarter dataset, I used the following countifs formula to complete this step: =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$F:$F, "successful", Kickstarter!$O:$O, "plays").
+After establishing the proper table format, I needed a way to count the number of successful, failed, and canceled fundraising campaigns in each goal range. Using a COUNTIFS formula, I filtered three columns of Kickstarter data to populate **Number Sucessful**, **Number Failed**, and **Number Canceled**. I used the folllowing forumula for cell B2: =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$F:$F, "successful", Kickstarter!$O:$O, "plays"). To complete the rest of column B, I changed the numeric value of the goal filter. For cells columns C and D, I needed to change the goal and outcome filters. See completed chart with cell B2's formula displayed:
 
 #### Challenges
 ![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
