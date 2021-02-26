@@ -59,11 +59,11 @@ After establishing the proper table format, I needed a way to count the number o
 
 To complete the rest of column B, I changed the numeric value of the goal filter. See the filter change circled in red:
 
-
+![Outcomes_OneFilter](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_OneFilter.PNG)
 
 For cells columns C and D, I needed to change the goal and outcome filters. See the two-filter change circled in red:
 
-
+![Outcomes_TwoFilter](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_TwoFilter.PNG)
 
 #### Challenges
 ![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
