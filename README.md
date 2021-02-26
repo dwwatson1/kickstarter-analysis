@@ -49,9 +49,11 @@ The second analysis was to determine if fundraising goals impacted the outcome o
 
 #### Process 
 
-To begin my analysis of outcomes based on goals, I added a new sheet to my Kickstarter workbook and split up fundraising goals and outcomes into more specific categories, as shown below:
+To begin my analysis of outcomes based on goals, I added a new sheet to my Kickstarter workbook and split up fundraising goals ranges in rows and categorized outcomes in columns, as shown below:
 
+![Blank_Outcomes_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Blank_Outcomes_Goals.PNG)
 
+After establishing the proper table format, I needed a way to count the number of successful, failed, and canceled fundraising campaigns in each goal range. Drawing from the Kickstarter dataset, I used the following countifs formula to complete this step: =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$F:$F, "successful", Kickstarter!$O:$O, "plays").
 
 #### Challenges
 ![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
