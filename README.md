@@ -44,8 +44,15 @@ After a few Google searches, I learned that I right click and group Row Labels a
 
 ### Analysis of Outcomes Based on Goals
 #### Overview
-The second analysis was to determine if fundraising goals impacted their outcome.
+
+The second analysis was to determine if fundraising goals impacted the outcome of the Kickstarter campaign.
+
 #### Process 
+
+To begin my analysis of outcomes based on goals, I added a new sheet to my Kickstarter workbook and split up fundraising goals and outcomes into more specific categories, as shown below:
+
+
+
 #### Challenges
 ![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 ### Other Challenges and Difficulties Encountered
