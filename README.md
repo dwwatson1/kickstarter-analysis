@@ -71,7 +71,7 @@ I repeated a combination of one- and two-filter changes to complete the rest of 
 
 Columns **Percentage Sucessful**, **Percentage Failed**, and **Percentage Canceled** required a simple division and percentage conversion calculation. See example from the **Percentage Sucessful** column:
 
-![Percentage_Sucessful](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Percentage_Sucessful.PNG)
+![Percentage_Successful](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Percentage_Successful.PNG)
 
 
 #### Challenges
