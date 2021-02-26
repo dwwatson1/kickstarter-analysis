@@ -36,6 +36,12 @@ With the correct filters and sorting, I was confident that a pivot chart would c
 
 As mentioned in the previous section, I encountered difficulty displaying **date create conversion** as **months**. When I created my pivot table, **date create conversion** showed as mm/dd/yyyy. This caused each specific date to count outcomes, as shown below: 
 
+![Long_Date]https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Long_Date.PNG
+
+After a few Google searches, I learned that I right click and group Row Labels and to display as **months**. This corrected the issue in my pivot table and allowed for cleaner data analysis in my pivot chat. The grouping Row Labels solution is displayed below:
+
+![Grouping_Rows.png](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Grouping_Rows.png)
+
 ### Analysis of Outcomes Based on Goals
 #### Overview
 The second analysis was to determine if fundraising goals impacted their outcome.
