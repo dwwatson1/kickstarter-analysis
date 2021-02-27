@@ -91,7 +91,7 @@ I encountered some difficulty uploading images to Github and hosting them in thi
 
 My analysis on **theater outcomes based on launch date** showed that May had the most kickstarter campaigns begin in May. May also had the highest number of successful campaigns. However, I needed to dig a little deeper for Louise if I wanted to recommend May as the best time of year to launch a campaign. I wanted to see the success rate by month, so I calculated the percentage of successful campaigns by month. Using the **theater outcomes based on launch date** pivot table data, I divided the successful count by the grand total. As it turned out, May was had the highest success rate with 67%, in addition to have the highest successful count.
 
-![May_Success](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/May_Success.png)
+![May_Success](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/May_Success.PNG)
 
 ### What can you conclude about the Outcomes based on Goals?
 
