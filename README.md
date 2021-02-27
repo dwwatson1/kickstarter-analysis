@@ -89,12 +89,18 @@ I encountered some difficulty uploading images to Github and hosting them in thi
 
 ### What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-My analysis on **theater outcomes based on launch date** showed that May had the most kickstarter campaigns begin in May. May also had the highest number of successful campaigns. However, I needed to dig a little deeper for Louise if I wanted to recommend May as the best time of year to launch a campaign. I wanted to see the success rate by month, so I calculated the percentage of successful campaigns by month. Using the **theater outcomes based on launch date** pivot table data, I divided the successful count by the grand total. As it turned out, May was had the highest success rate with 67%, in addition to have the highest successful count.
+My analysis on **theater outcomes based on launch date** showed that May had the most kickstarter campaigns begin in May. May also had the highest number of successful campaigns. However, I needed to dig a little deeper for Louise if I wanted to recommend May as the best time of year to launch a campaign. I wanted to see the success rate by month, so I calculated the percentage of successful campaigns by month. Using the **theater outcomes based on launch date** pivot table data, I divided the successful count by the grand total. As it turned out, May was had the highest success rate with **67%**, in addition to have the highest successful count.
 
 ![May_Success](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/May_Success.PNG)
 
+I would recommend Louise launch a fundraising campaign in May first. Her next best option is June, which had a success rate of **65%**. I wouldn't recommend Louise launch of campaign in December, because it had the lowest success rate by far. For comparison, the month with the second-lowest success rate was October with **57%**.
+
 ### What can you conclude about the Outcomes based on Goals?
 
+
+
 ### What are some limitations of this dataset?
+
+There is limited information on how these fundraising campaigns were performed. As someone who has managed fundraising strategy for political campaigns, I'd like to know if the campaigns raised money online, from in-person solicitation, or from phone-banking. It would be interesting to see what method had highest success rate. This information would help Louise pinpoint her fundraising strategy and possibly if she needed to learn how to say, phone-bank successfully.   
 
 ### What are some other possible tables and/or graphs that we could create?
