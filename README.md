@@ -73,9 +73,12 @@ Columns **Percentage Sucessful**, **Percentage Failed**, and **Percentage Cancel
 
 ![Percentage_Successful](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Percentage_Successful.PNG)
 
+I then created a line graph pivot chart to displays with the percentage columns to show **Percentage Sucessful**, **Percentage Failed**, and **Percentage Canceled** at each fundraising goal tier.
+
+![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 #### Challenges
-![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
+
 ### Other Challenges and Difficulties Encountered
 
 ## Results
