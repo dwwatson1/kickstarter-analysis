@@ -73,20 +73,28 @@ Columns **Percentage Sucessful**, **Percentage Failed**, and **Percentage Cancel
 
 ![Percentage_Successful](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Percentage_Successful.PNG)
 
-I then created a line graph pivot chart to displays with the percentage columns to show **Percentage Sucessful**, **Percentage Failed**, and **Percentage Canceled** at each fundraising goal tier.
+I then created a line graph pivot chart to display with the percentage columns to show **Percentage Sucessful**, **Percentage Failed**, and **Percentage Canceled** at each fundraising goal tier.
 
 ![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 #### Challenges
 
+The hardest part of this analysis was getting the countifs forumla correct. I looked back at the module exercises and searched on Google how to write the filters correctly. It took some trial and error to get the pivot table numbers correct. After a couple tries, I successfully wrote the first two filters =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$F:$F, "successful"). I was feeling accomplished but then realized it still wasn't the correct forumla. I went back into the assignment directions and figured out that I had missed the third filter , to only include the subcategory **plays**. I added the following to the end of my formula to correct it: Kickstarter!$O:$O, "plays". Still, my numbers were slightly off. After reviewing the verbiage of the goals, 1000 to 4999, for example, I missed including the numbers 1000 and 4999 in my formula. I corrected it by adding an "=" sign to range >=1000 and <=4999. I then added equal signs to every other countifs formula except the **Less than 1000** goal. Now, my pivot table was showing the correct outcome numbers and correct pivot chart.
+
 ### Other Challenges and Difficulties Encountered
+
+I encountered some difficulty uploading images to Github and hosting them in this document. As you can see from my commit count, it required much trial and error. I solved the issue by searching for solutions on Stack Overflow and a few other random sites. I added all image screenshots to the Resources folder in my Kickstarter Analysis and then hard coded them in. I feel like I have the hang of it now, as demonstrated in this document. 
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+### What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-- What can you conclude about the Outcomes based on Goals?
+My analysis on **theater outcomes based on launch date** showed that May had the most kickstarter campaigns begin in May. May also had the highest number of successful campaigns. However, I needed to dig a little deeper for Louise if I wanted to recommend May as the best time of year to launch a campaign. I wanted to see the success rate by month, so I calculated the percentage of successful campaigns by month. Using the **theater outcomes based on launch date** pivot table data, I divided the successful count by the grand total. As it turned out, May was had the highest success rate with 67%, in addition to have the highest successful count.
 
-- What are some limitations of this dataset?
+![May_Success](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/May_Success.png)
 
-- What are some other possible tables and/or graphs that we could create?
+### What can you conclude about the Outcomes based on Goals?
+
+### What are some limitations of this dataset?
+
+### What are some other possible tables and/or graphs that we could create?
