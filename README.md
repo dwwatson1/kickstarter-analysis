@@ -3,7 +3,7 @@
 ## An Analysis of Kickstarter Campaigns
 
 ### Background
-Louise's play _Fever_ was close to hitting its fundraising goal in a short amount of time. She wants to understand how different campaigns fared based on their launch dates and fundraising goals. 
+Louise's play _Fever_ was close to hitting its fundraising goal in a short amount of time. She wants to know which fundraising campaigns were most successful based on their launch dates and fundraising goals. 
 
 ### Purpose
 The purpose of this analysis was to help Louise answer her question. Using visualizations from the Kickstarter dataset, I analyzed how launch dates and fundraising goals affected four outcomes: successful, failed, live, and canceled. This analysis will help Louise determine the success of her fundraising efforts for _Fever_ and hopefully provide insights for her future fundraising campaigns.
