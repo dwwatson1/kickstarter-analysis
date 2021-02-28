@@ -44,7 +44,7 @@ As mentioned in the previous section, I encountered difficulty displaying the **
 
 ![Long_Date](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Long_Date.PNG)
 
-After a few Google searches, I learned that I can right-click and group Row Labels and to display as **months**. This corrected the issue in my pivot table and allowed for cleaner data analysis in my pivot chat. The grouping Row Labels solution is displayed below:
+After a few Google searches, I learned that I can right-click and group Row Labels and display them as **months**. This corrected the issue in my pivot table and allowed for cleaner data analysis in my pivot chat. The grouping Row Labels solution is displayed below:
 
 ![Grouping_Rows.png](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Grouping_Rows.png)
 
@@ -114,10 +114,10 @@ There is limited information on how these fundraising campaigns were performed. 
 
 ### What are some other possible tables and/or graphs that we could create?
 
-It would be helpful for Louise to see how the average donation amount impacted the outcome of fundraising campaigns. This analysis would help her set her fundraising strategy. With this information, she could see what type of donor (small, medium, or large) translates into a successful outcome. During the campaign, she could recommend a standard contribution $xx. For example, campaigns with what I would categorize as a medium-dollar average donation **50 to 99** and **100 to 149** were 82% and 85% successful, respectively, and accounted for 47% of all campaign data. Louise should choose an average donation dollar amount between $50 and $149 to maximize her campaign's success.
+It would be helpful for Louise to see how the average donation amount impacted the outcome of fundraising campaigns. This analysis would help her set her fundraising strategy. With this information, she could see what type of donor (small, medium, or large) translates into a successful outcome. During the campaign, she could recommend a standard contribution of $xx. For example, campaigns with what I would categorize as a medium-dollar average donation **50 to 99** and **100 to 149** were 82% and 85% successful, respectively, and accounted for 47% of all campaign data. Louise should choose an average donation dollar amount between $50 and $149 to maximize her campaign's success.
 
 ![Outcomes_AvgDonation_Chart](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_AvgDonation_Chart.png)
 
-In conclusion, Louise should set her fundraising goal to **1000 to 4999** and cater her fundraising strategy to maximize medium-dollar donations. Let's say she sets her goal average donation to $75 and overall fundraising goal to $3,000. She now knows she only needs thirty $75 donations, which makes the fundraising goal more manageable. During the course of the campaign, she will be able to monitor her average donation and donation total and make adjustments as needed.
+In conclusion, Louise should set her fundraising goal to **1000 to 4999** and cater her fundraising strategy to maximize medium-dollar donations. Let's say she sets her goal average donation to $75 and overall fundraising goal to $3,000. She now knows she only needs thirty $75 donations, which makes the fundraising goal more manageable. During the campaign, she will be able to monitor her average donation and donation total and make adjustments as needed.
 
 
