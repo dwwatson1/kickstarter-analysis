@@ -18,7 +18,7 @@ The first analysis was to determine if the month of launch date impacted the out
 
 #### Process 
 
-To complete this analysis, I created a pivot table using the [Kickstarter_Challenge](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Kickstarter_Challenge.zip) Kickstarter dataset. I used the **parent category** and **years** fields as my filters, moved **date created conversion** to rows, **outcomes** to columns, and **outcomes** again to values. See the image below for the pivot table field selection:
+To complete this analysis, I created a pivot table using data from the first sheet in the [Kickstarter_Challenge](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Kickstarter_Challenge.zip) file. I used the **parent category** and **years** fields as my filters, moved **date created conversion** to rows, **outcomes** to columns, and **outcomes** again to values. See the image below for the pivot table field selection:
 
 ![Pivot_Table_Fields.PNG](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Pivot_Table_Fields.PNG)
 
@@ -37,6 +37,8 @@ After setting the pivot table field, I filtered the parent category show to only
 With the correct filters and sorting, I was confident that a pivot chart would display the theater outcomes by the month of the launch date. To explain the data I was showing in the chart, I added the title **Theater Outcomes Based on Launch Date**. I then saved the chart as a .png file, uploaded it to my _Resources_ folder in my repository, and added it below: 
 
 ![Theater_Outcomes_vs_Launches](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
+
+The pivot table and chart area also are displayed in the second sheet in the [Kickstarter_Challenge](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Kickstarter_Challenge.zip) file.
 
 #### Challenges
 
@@ -84,6 +86,8 @@ I then created a line graph pivot chart to display with the percentage columns t
 
 ![Outcomes_vs_Goals](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
+The pivot table and chart area also are displayed in the third sheet in the [Kickstarter_Challenge](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Kickstarter_Challenge.zip) file.
+
 #### Challenges
 
 The hardest part of this analysis was getting the countifs formula correct. I looked back at the module exercises and searched on Google how to write the filters correctly. It took some trial and error to get the pivot table numbers correct. After a couple of tries, I successfully wrote the first two filters =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$F:$F, "successful"). I was feeling accomplished but then realized it still wasn't the correct formula. I went back into the assignment directions and figured out that I had missed the third filter, to only include the subcategory **plays**. I added the following to the end of my formula to correct it: Kickstarter!$O:$O, "plays". Still, my numbers were slightly off. After reviewing the verbiage of the goals, 1000 to 4999, for example, I missed including the numbers 1000 and 4999 in my formula. I corrected it by adding an "=" sign to range >=1000 and <=4999. I then added equal signs to every other countifs formula except the **Less than 1000** goal. Now, my pivot table was showing the correct outcome numbers and the correct pivot chart.
@@ -114,7 +118,7 @@ There is limited information on how these fundraising campaigns were performed. 
 
 ### What are some other possible tables and/or graphs that we could create?
 
-It would be helpful for Louise to see how the average donation amount impacted the outcome of fundraising campaigns. This analysis would help her set her fundraising strategy. With this information, she could see what type of donor (small, medium, or large) translates into a successful outcome. During the campaign, she could recommend a standard contribution of $xx. For example, campaigns with what I would categorize as a medium-dollar average donation **50 to 99** and **100 to 149** were 82% and 85% successful, respectively, and accounted for 47% of all campaign data. Louise should choose an average donation dollar amount between $50 and $149 to maximize her campaign's success.
+It would be helpful for Louise to see how the average donation amount impacted the outcome of fundraising campaigns. This analysis would help her set her fundraising strategy. With this information, she could see what type of donor (small, medium, or large) translates into a successful outcome. During the campaign, she could recommend a standard contribution of $xx. For example, campaigns with what I would categorize as a medium-dollar average donation **50 to 99** and **100 to 149** were 82% and 85% successful, respectively, and accounted for 47% of all campaign data. (See the fourth sheet in [Kickstarter_Challenge](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Kickstarter_Challenge.zip) file for the full data.) Louise should choose an average donation dollar amount between $50 and $149 to maximize her campaign's success.
 
 ![Outcomes_AvgDonation_Chart](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_AvgDonation_Chart.png)
 
