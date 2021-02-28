@@ -11,9 +11,13 @@ The purpose of this analysis was to help Louise answer her question. Using visua
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
+
 #### Overview
+
 The first analysis was to determine if the month of launch date impacted the outcome of **theater** fundraising campaigns. 
+
 #### Process 
+
 To complete this analysis, I created a pivot table using the Kickstarter dataset. I used the **parent category** and **years** fields as my filters, moved **date created conversion** to rows, **outcomes** to columns, and **outcomes** again to values. See the image below for the pivot table field selection:
 
 ![Pivot_Table_Fields.PNG](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Pivot_Table_Fields.PNG)
@@ -27,6 +31,8 @@ After I created the pivot table, I noticed the dates row labels showed up as mm/
 ![Grouping_Rows.png](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Grouping_Rows.png)
 
 After setting the pivot table field, I filtered the parent category show to only **theater** fundraising campaigns. Then, I filtered out **live** campaigns, as those would show ongoing or incomplete ones, and sorted the outcome column labels in descending order: successful, failed, and canceled. By grouping the **date created conversion** field, the months row label was already sorted chronologically (Jan. - Dec.).
+
+![Theater_PivotTable](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Theater_PivotTable.PNG)
 
 With the correct filters and sorting, I was confident that a pivot chart would display the theater outcomes by the month of the launch date. To explain the data I was showing in the chart, I added the title **Theater Outcomes Based on Launch Date**. I then saved the chart as a .png file, uploaded it to my _Resources_ folder in my repository, and added it below: 
 
@@ -43,6 +49,7 @@ After a few Google searches, I learned that I can right-click and group Row Labe
 ![Grouping_Rows.png](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Grouping_Rows.png)
 
 ### Analysis of Outcomes Based on Goals
+
 #### Overview
 
 The second analysis was to determine if fundraising goals impacted the outcome of the Kickstarter campaigns with the subcategory **plays**.
