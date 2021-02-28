@@ -18,7 +18,7 @@ The first analysis was to determine if the month of launch date impacted the out
 
 #### Process 
 
-To complete this analysis, I created a pivot table using the Kickstarter dataset. I used the **parent category** and **years** fields as my filters, moved **date created conversion** to rows, **outcomes** to columns, and **outcomes** again to values. See the image below for the pivot table field selection:
+To complete this analysis, I created a pivot table using the [Kickstarter_Challenge(https://github.com/dwwatson1/kickstarter-analysis/blob/main/Kickstarter_Challenge.zip) Kickstarter dataset]. I used the **parent category** and **years** fields as my filters, moved **date created conversion** to rows, **outcomes** to columns, and **outcomes** again to values. See the image below for the pivot table field selection:
 
 ![Pivot_Table_Fields.PNG](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Pivot_Table_Fields.PNG)
 
