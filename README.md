@@ -109,7 +109,7 @@ There is limited information on how these fundraising campaigns were performed. 
 
 It would be helpful for Louise to see how the average donation amount of impacted the outcome of fundraising campaigns. This analysis would help her set her fundraising strategy. With this information she could see what type of donor: small-, medium-, or large-donors translate into a successful outcome. During the campaign, she could recommend donors to contribute $xx dollars.  For example, campaigns with what I would categorize as a medium-dollar average donation **50 to 99** and to **100 to 149** were 82% and 85% successful, respectively, and accounted for 47% of all campaign data. 
 
-
+![Outcomes_AvgDonation_Chart](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Outcomes_AvgDonation_Chart.png)
 
 With this information, Louise could set her fundraising goal to **1000 to 4999** and aim to cater her fundraising strategy to maximize medium-dollar donations. I would recommend she aim for a $75 average donation. If her fundraising goal were $3,000, she would know that she only needs thirty $75 donations, which makes the fundraising goal seem more manageable and attainable.
 
