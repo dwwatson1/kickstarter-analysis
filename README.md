@@ -69,7 +69,7 @@ I repeated a combination of one- and two-filter changes to complete the rest of 
 
 ![Total_Projects](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Total_Projects.PNG)
 
-Columns **Percentage Sucessful**, **Percentage Failed**, and **Percentage Canceled** required a simple division and percentage conversion calculation. See example from the **Percentage Sucessful** column:
+Columns **Percentage Sucessful**, **Percentage Failed**, and **Percentage Canceled** required a simple division and percentage conversion calculation. See example from the **Percentage Successful** column:
 
 ![Percentage_Successful](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/Percentage_Successful.PNG)
 
@@ -89,7 +89,7 @@ I encountered some difficulty uploading images to Github and hosting them in thi
 
 ### What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-My analysis on **theater outcomes based on launch date** showed that May had the most kickstarter campaigns begin in May. May also had the highest number of successful campaigns. However, I needed to dig a little deeper for Louise if I wanted to recommend May as the best time of year to launch a campaign. I wanted to see the success rate by month, so I calculated the percentage of successful campaigns by month. Using the **theater outcomes based on launch date** pivot table data, I divided the successful count by the grand total. As it turned out, May was had the highest success rate with **67%**, in addition to have the highest successful count.
+My analysis on **Theater Outcomes based on Launch Date** showed that May had the most kickstarter campaigns begin in May. May also had the highest number of successful campaigns. However, I needed to dig a little deeper for Louise if I wanted to recommend May as the best time of year to launch a campaign. I wanted to see the success rate by month, so I calculated the percentage of successful campaigns by month. Using the **Theater Outcomes based on Launch Date** pivot table data, I divided the successful count by the grand total. As it turned out, May was had the highest success rate with **67%**, in addition to have the highest successful count.
 
 ![May_Success](https://github.com/dwwatson1/kickstarter-analysis/blob/main/Resources/May_Success.PNG)
 
@@ -97,10 +97,20 @@ I would recommend Louise launch a fundraising campaign in May first. Her next be
 
 ### What can you conclude about the Outcomes based on Goals?
 
+My analysis on **Outcomes based on Goals** gives Louise insight on how other plays fared based on their fundraising goal. Plays within the goal range **less than 1000** saw the highest success rate with 76%, followed by **1000 to 4999** with 73% successful. Plays saw the lowest success rate when their fundraising goals fell in the highest ranges: **45000 to 49999** with 0% and **Greater than 50000** with 17%. While these were the least successful fundraising levels, the data was limited. Combined, there were only 13 plays (accounts for 1.2% of plays) with goals greater than 45000, as opposed to 720 plays (accounts for 69% of plays) with goals from less than 4999. 
 
+While the **less than 1000** level saw the highest success rate with 76%, plays within that range only accounted for 18% of plays. I would recommend Louise set her next play's fundraising goal between **1000 to 4999** because because more than half of the play data (51%) fell within the range and it also saw the second-highest success rate with 73%.
 
 ### What are some limitations of this dataset?
 
 There is limited information on how these fundraising campaigns were performed. As someone who has managed fundraising strategy for political campaigns, I'd like to know if the campaigns raised money online, from in-person solicitation, or from phone-banking. It would be interesting to see what method had highest success rate. This information would help Louise pinpoint her fundraising strategy and possibly if she needed to learn how to say, phone-bank successfully.   
 
 ### What are some other possible tables and/or graphs that we could create?
+
+It would be helpful for Louise to see how the average donation amount of impacted the outcome of fundraising campaigns. This analysis would help her set her fundraising strategy. With this information she could see what type of donor: small-, medium-, or large-donors translate into a successful outcome. During the campaign, she could recommend donors to contribute $xx dollars.  For example, campaigns with what I would categorize as a medium-dollar average donation **50 to 99** and to **100 to 149** were 82% and 85% successful, respectively, and accounted for 47% of all campaign data. 
+
+
+
+With this information, Louise could set her fundraising goal to **1000 to 4999** and aim to cater her fundraising strategy to maximize medium-dollar donations. I would recommend she aim for a $75 average donation. If her fundraising goal were $3,000, she would know that she only needs thirty $75 donations, which makes the fundraising goal seem more manageable and attainable.
+
+
